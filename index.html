@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
-<body>
-
-  <h2>html forms</h2>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário Simples</title>
-  
-    <form action>
+</head>
+<body>
+    <h1>Preencha Seus Dados</h1>
+    <form action="/action_page.php" method="post">
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" value="Gabriel Pimenta">
         <br><br>
@@ -17,6 +19,6 @@
         <br><br>
         <button type="submit">Enviar</button>
     </form>
-  
+    <p>Ao clicar no botão "Enviar", os dados do formulário serão enviados para a página "/action_page.php".</p>
 </body>
 </html>
