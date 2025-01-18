@@ -1,13 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+<html>
 <body>
-    <h1>Dados do Usuário</h1>
-    <p><strong>Nome:</strong> Gabriel Pimenta </p>
-    <p><strong>Curso:</strong> Talento Tech </p>
-    <p><strong>Universidade:</strong> UEPG </p>
+
+  <h2>html forms</h2>
+    <title>Formulário Simples</title>
+  
+    <form action= "/action_page.php">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" value="Gabriel Pimenta">
+        <br><br>
+        <label for="curso">Curso:</label>
+        <input type="text" id="curso" name="curso" value="Talento Tech">
+        <br><br>
+        <label for="universidade">Universidade:</label>
+        <input type="text" id="universidade" name="universidade" value="UEPG">
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+
+  <p> If you click the "Submite" button, the form-data will be sent to a page called "/action_page.php". </p>
+  
 </body>
 </html>
